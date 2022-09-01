@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(235, 243, 241);
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#face-head {
+  margin: 30% auto 0 auto;
+}
+#face h2 {
+  color: rgb(90, 93, 251);
+  font-size: 3.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+#face-head p {
+  font-size: 1.7em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  letter-spacing: -1px;
+  line-height: 0.8cm;
+  overflow: hidden;
+  padding: 0 40px 0 0;
+}
+
+#form {
+  margin: 30% auto 0 auto;
+  padding: 20px;
+  width: 400px;
+  height: max-content;
+  box-shadow: 2px solid black;
+  background-color: rgb(255, 255, 255);
+}
+
+.inner {
+  padding: 14px;
+  font-size: 17px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.inner:focus {
+  box-shadow: none;
+}
+.inner:hover {
+  border-color: rgb(2, 80, 248);
+}
+#login-btn {
+  background-color: rgb(0, 89, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+#login-btn:hover {
+  background-color: rgb(32, 77, 224);
+}
+#login-btn:focus {
+  box-shadow: none;
+}
+.forgot {
+  text-align: center;
+  margin: 5px auto;
+}
+.forgot a {
+  text-decoration: none;
+  color: rgb(6, 155, 255);
+  font-weight: 500;
+}
+.account {
+  text-align: center;
+}
+#account-btn {
+  background-color: rgb(17, 223, 51);
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: large;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+#account-btn:hover {
+  background-color: rgb(6, 192, 37);
+}
+.page {
+  display: block;
+  margin: 20px auto 0 20px;
+}
+.page a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+#demo {
+  color: red;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*========================
+         section                   
+  ========================*/
+
+#section {
+  background-color: rgb(255, 255, 255);
+  margin: 10% auto auto auto;
+  padding: 1% 2%;
+  width: 100%;
+}
+.buttons a {
+  border: none;
+}
+.buttons a:hover {
+  text-decoration: underline;
+}
+
+#links {
+  margin-left: -10px;
+}
+#links a {
+  text-decoration: none;
+  border: none;
+}
+#links a:hover {
+  text-decoration: underline;
+}
+#alert {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(29, 85, 238);
+  color: #fff;
+}
+#close {
+  color: #fff;
+}
+
+/*=========================
+  Media Quries
+==========================*/
+@media (max-width: 576px) {
+  #face-head {
+    margin: 10px;
+    text-align: center;
+  }
+  #face-head p {
+    padding: 0 40px 0 50px;
+    font-size: 1.3em;
+  }
+  #form {
+    margin: 8% auto;
+    width: 370px;
+  }
+  .page {
+    text-align: center;
+    font-size: 0.9em;
+  }
+}
